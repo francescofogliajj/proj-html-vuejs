@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <title>Cargo Transport</title>
   </head>
   <body>
@@ -10,7 +12,28 @@
     <div id="app">
 
       <header>
-
+        <div class="top container">
+          <div class="left">
+            <ul>
+              <li v-for="link in headerLinksLeft">
+                <i :class="link.class"></i>
+                <a :href="link.url">
+                  <span>{{ link.name }}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul>
+              <li v-for="link in headerLinksRight">
+                <i :class="link.class"></i>
+                <a :href="link.url">
+                  <span>{{ link.name }}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
 
     </div>
