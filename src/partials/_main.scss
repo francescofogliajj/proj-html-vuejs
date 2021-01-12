@@ -1,0 +1,34 @@
+#cargo-transport {
+  width: 100%;
+  height: 695px;
+  padding-top: 30px;
+  color: white;
+  background-image: url("../img/bg-9.jpg");
+  background-size: cover;
+  background-position: top;
+  nav {
+    display: flex;
+    .nexgen {
+      width: 20%;
+      span:first-child {
+        padding: 10px 0 10px 20px;
+        border-radius: 20px 0 0 20px;
+        color: #00A5A5;
+        background-color: rgba(5,130,131,0.5);
+      }
+      span {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+    ul {
+      width: 80%;
+      text-align: right;
+      li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 30px;
+      }
+    }
+  }
+}

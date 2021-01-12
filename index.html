@@ -16,8 +16,8 @@
           <div class="left">
             <ul>
               <li v-for="link in headerLinksLeft">
-                <i :class="link.class"></i>
                 <a :href="link.url">
+                  <i :class="link.class"></i>
                   <span>{{ link.name }}</span>
                 </a>
               </li>
@@ -26,8 +26,8 @@
           <div class="right">
             <ul>
               <li v-for="link in headerLinksRight">
-                <i :class="link.class"></i>
                 <a :href="link.url">
+                  <i :class="link.class"></i>
                   <span>{{ link.name }}</span>
                 </a>
               </li>
@@ -35,6 +35,27 @@
           </div>
         </div>
       </header>
+
+      <main>
+        <section id="cargo-transport">
+          <div class="container">
+            <nav>
+              <div class="nexgen">
+                <span>nex</span>
+                <span>gen</span>
+              </div>
+              <ul>
+                <li v-for="link in navLinks">
+                  <a :href="link.url">
+                    <i :class="link.class"></i>
+                    <span>{{ link.name }}</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </main>
 
     </div>
 

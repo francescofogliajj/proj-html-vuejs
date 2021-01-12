@@ -3,7 +3,7 @@ var app = new Vue({
   el: "#app",
 
   data: {
-    
+
     headerLinksLeft: [
 
       {
@@ -43,6 +43,52 @@ var app = new Vue({
       {
         class: "fab fa-linkedin-in",
         name: "",
+        url: "#"
+      }
+
+    ],
+
+    navLinks: [
+
+      {
+        class: "",
+        name: "Home",
+        url: "#"
+      },
+
+      {
+        class: "",
+        name: "About",
+        url: "#"
+      },
+
+      {
+        class: "",
+        name: "Services",
+        url: "#"
+      },
+
+      {
+        class: "",
+        name: "Process",
+        url: "#"
+      },
+
+      {
+        class: "",
+        name: "Testimonials",
+        url: "#"
+      },
+
+      {
+        class: "far fa-user",
+        name: "",
+        url: "#"
+      },
+
+      {
+        class: "",
+        name: "Get in Touch",
         url: "#"
       }
 
