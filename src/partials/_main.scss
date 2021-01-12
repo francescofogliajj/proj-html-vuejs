@@ -1,40 +1,71 @@
 #cargo-transport {
   width: 100%;
   height: 695px;
-  padding-top: 20px;
   color: white;
   background-image: url("../img/bg-9.jpg");
   background-size: cover;
   background-position: top;
-  nav {
-    display: flex;
-    .nexgen {
-      width: 20%;
+  text-transform: uppercase;
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    nav {
       display: flex;
-      align-items: center;
-      span:first-child {
-        padding: 10px 0 10px 20px;
-        border-radius: 20px 0 0 20px;
-        color: #00A5A5;
-        background-color: rgba(5,130,131,0.5);
+      .nexgen {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        span:first-child {
+          padding: 10px 0 10px 20px;
+          border-radius: 20px 0 0 20px;
+          color: #00A5A5;
+          background-color: rgba(5,130,131,0.5);
+        }
+        span {
+          font-weight: bold;
+        }
       }
-      span {
-        text-transform: uppercase;
-        font-weight: bold;
+      ul {
+        width: 80%;
+        text-align: right;
+        li {
+          display: inline-block;
+          margin-left: 25px;
+        }
+        li:last-child {
+          @include brandButton;
+          background-color: $brandColor;
+        }
       }
     }
-    ul {
-      width: 80%;
-      text-align: right;
-      li {
-        display: inline-block;
-        text-transform: uppercase;
-        margin-left: 25px;
+    .jumbotron {
+      p:first-child {
+        margin-top: 140px;
+        margin-bottom: 10px;
+        color: $brandColor;
       }
-      li:last-child {
-        padding: 10px 20px;
-        background-color: #058283;
-        border-radius: 3px;
+      h1 {
+        margin-bottom: 30px;
+        font-size: 60px;
+        font-weight: bolder;
+      }
+      #lowercase {
+        margin-bottom: 50px;
+        text-transform: none;
+        color: #BCBDBD;
+      }
+      div {
+        a:first-child {
+          @include brandButton;
+          background-color: $brandColor;
+          margin-right: 20px;
+        }
+        a:last-child {
+          @include brandButton;
+          border: 1px solid $brandColor;
+        }
       }
     }
   }

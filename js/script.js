@@ -24,7 +24,7 @@ var app = new Vue({
 
       {
         class: "fas fa-envelope",
-        name: "",
+        name: "hello@example.com",
         url: "#"
       },
 

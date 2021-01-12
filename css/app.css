@@ -42,47 +42,77 @@ header .top .right {
   text-align: right;
 }
 header .top .right li {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 #cargo-transport {
   width: 100%;
   height: 695px;
-  padding-top: 20px;
   color: white;
   background-image: url("../img/bg-9.jpg");
   background-size: cover;
   background-position: top;
+  text-transform: uppercase;
 }
-#cargo-transport nav {
+#cargo-transport .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+}
+#cargo-transport .overlay nav {
   display: flex;
 }
-#cargo-transport nav .nexgen {
+#cargo-transport .overlay nav .nexgen {
   width: 20%;
   display: flex;
   align-items: center;
 }
-#cargo-transport nav .nexgen span:first-child {
+#cargo-transport .overlay nav .nexgen span:first-child {
   padding: 10px 0 10px 20px;
   border-radius: 20px 0 0 20px;
   color: #00A5A5;
   background-color: rgba(5, 130, 131, 0.5);
 }
-#cargo-transport nav .nexgen span {
-  text-transform: uppercase;
+#cargo-transport .overlay nav .nexgen span {
   font-weight: bold;
 }
-#cargo-transport nav ul {
+#cargo-transport .overlay nav ul {
   width: 80%;
   text-align: right;
 }
-#cargo-transport nav ul li {
+#cargo-transport .overlay nav ul li {
   display: inline-block;
-  text-transform: uppercase;
   margin-left: 25px;
 }
-#cargo-transport nav ul li:last-child {
+#cargo-transport .overlay nav ul li:last-child {
   padding: 10px 20px;
-  background-color: #058283;
   border-radius: 3px;
+  background-color: #058283;
+}
+#cargo-transport .overlay .jumbotron p:first-child {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  color: #058283;
+}
+#cargo-transport .overlay .jumbotron h1 {
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+#cargo-transport .overlay .jumbotron #lowercase {
+  margin-bottom: 50px;
+  text-transform: none;
+  color: #BCBDBD;
+}
+#cargo-transport .overlay .jumbotron div a:first-child {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #058283;
+  margin-right: 20px;
+}
+#cargo-transport .overlay .jumbotron div a:last-child {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #058283;
 }
