@@ -1,7 +1,7 @@
 #cargo-transport {
   width: 100%;
   height: 695px;
-  padding-top: 30px;
+  padding-top: 20px;
   color: white;
   background-image: url("../img/bg-9.jpg");
   background-size: cover;
@@ -10,6 +10,8 @@
     display: flex;
     .nexgen {
       width: 20%;
+      display: flex;
+      align-items: center;
       span:first-child {
         padding: 10px 0 10px 20px;
         border-radius: 20px 0 0 20px;
@@ -27,7 +29,12 @@
       li {
         display: inline-block;
         text-transform: uppercase;
-        margin-left: 30px;
+        margin-left: 25px;
+      }
+      li:last-child {
+        padding: 10px 20px;
+        background-color: #058283;
+        border-radius: 3px;
       }
     }
   }
