@@ -117,3 +117,34 @@ header .top .right li {
 #cargo-transport .overlay .jumbotron div a:last-child {
   border: 1px solid #058283;
 }
+
+footer {
+  color: white;
+}
+footer .top {
+  padding: 100px;
+  background-color: #111117;
+}
+footer .top .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .top .container .card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #19191F;
+}
+footer .bottom {
+  height: 80px;
+  background-color: #0D0D11;
+}
+footer .bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bottom .container p a {
+  color: #058283;
+}

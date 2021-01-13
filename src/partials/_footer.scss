@@ -1,0 +1,32 @@
+footer {
+  color: white;
+  .top {
+    padding: 100px;
+    background-color: #111117;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #19191F;
+      }
+    }
+  }
+  .bottom {
+    height: 80px;
+    background-color: #0D0D11;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        a {
+          color: $brandColor;
+        }
+      }
+    }
+  }
+}
