@@ -118,11 +118,29 @@ header .top .right li {
   border: 1px solid #058283;
 }
 
+#excellence-in-transport .container {
+  padding: 100px 0;
+  display: flex;
+}
+#excellence-in-transport .container .left {
+  width: 70%;
+}
+#excellence-in-transport .container .right {
+  width: 30%;
+}
+#excellence-in-transport .container .right img {
+  width: 80px;
+  display: inline-block;
+}
+#excellence-in-transport .container .right div {
+  display: inline-block;
+}
+
 footer {
   color: white;
 }
 footer .top {
-  padding: 100px;
+  padding: 100px 0;
   background-color: #111117;
 }
 footer .top .container {
