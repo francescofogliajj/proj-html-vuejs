@@ -1,0 +1,44 @@
+#logistical-procedure {
+  padding: 100px 0 200px 0;
+  text-align: center;
+  position: relative;
+  small {
+    color: $brandColor;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin: 20px 0;
+    span {
+      color: $brandColor;
+      background-color: $backgroudColor;
+      padding: 5px;
+      border-radius: 3px;
+    }
+  }
+  p {
+    margin-bottom: 60px;
+  }
+  #rule {
+    height: 3px;
+    background-color: $backgroudColor;
+  }
+  .numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 30px;
+    .card {
+      width: calc(100% - 20px);
+      margin: 0 10px;
+      h3 {
+        margin: 20px 0;
+      }
+      span {
+        padding: 5px;
+        border-radius: 50%;
+        background-color: $brandColor;
+      }
+    }
+  }
+}

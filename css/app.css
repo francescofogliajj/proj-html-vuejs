@@ -52,7 +52,7 @@ header .top .right {
   text-align: right;
 }
 header .top .right li {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 #cargo-transport {
@@ -258,6 +258,51 @@ header .top .right li {
 }
 #main-services .container #cards .card:nth-child(2) {
   margin: 0 5%;
+}
+
+#logistical-procedure {
+  padding: 100px 0 200px 0;
+  text-align: center;
+  position: relative;
+}
+#logistical-procedure small {
+  color: #058283;
+  text-transform: uppercase;
+}
+#logistical-procedure h2 {
+  margin: 20px 0;
+}
+#logistical-procedure h2 span {
+  color: #058283;
+  background-color: rgba(5, 130, 131, 0.3);
+  padding: 5px;
+  border-radius: 3px;
+}
+#logistical-procedure p {
+  margin-bottom: 60px;
+}
+#logistical-procedure #rule {
+  height: 3px;
+  background-color: rgba(5, 130, 131, 0.3);
+}
+#logistical-procedure .numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 30px;
+}
+#logistical-procedure .numbers .card {
+  width: calc(100% - 20px);
+  margin: 0 10px;
+}
+#logistical-procedure .numbers .card h3 {
+  margin: 20px 0;
+}
+#logistical-procedure .numbers .card span {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #058283;
 }
 
 footer {
