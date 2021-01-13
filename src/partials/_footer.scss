@@ -7,11 +7,55 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
+      .col {
+        width: 25%;
+        .nexgen {
+          width: 20%;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          span:first-child {
+            padding: 10px 0 10px 20px;
+            border-radius: 20px 0 0 20px;
+            color: #00A5A5;
+            background-color: $backgroudColor;
+          }
+          span {
+            font-weight: bold;
+          }
+        }
+        p {
+          margin: 20px 0;
+        }
+        ul {
+          li {
+            margin: 10px 0;
+          }
+          li:last-child {
+            margin-top: 30px;
+            span {
+              padding: 10px 20px;
+              border: 1px solid $brandColor;
+              border-radius: 3px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
       .card {
-        margin: 20px;
-        padding: 20px;
+        width: 25%;
+        margin: 15px;
+        padding: 30px;
         border-radius: 10px;
         background-color: #19191F;
+        h3 {
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            margin: 10px 0;
+          }
+        }
       }
     }
   }

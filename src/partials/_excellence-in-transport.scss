@@ -15,15 +15,15 @@
       }
       h2 {
         margin-bottom: 10px;
-        i {
-          color: $brandColor;
-        }
         span {
+          padding: 5px;
+          border-radius: 2px;
           color: $brandColor;
+          background-color: $backgroudColor;
         }
       }
       p:nth-child(5) {
-        border-left: 4px solid green;
+        border-left: 4px solid $backgroudColor;
         padding: 10px;
         font-style: italic;
       }
@@ -46,8 +46,10 @@
           padding: 5px 0;
           img {
             width: 80px;
+            padding: 3px;
+            border-radius: 2px;
             display: inline-block;
-            background-color: rgba(5,130,131,0.5);
+            background-color: $backgroudColor;
           }
           div {
             display: inline-block;
