@@ -1,5 +1,64 @@
 #main-services {
+  background-color: #111117;
   .container {
-    
+    padding: 100px 0;
+    color: white;
+    small {
+      color: $brandColor;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 20px 0;
+      span {
+        padding: 5px;
+        border-radius: 2px;
+        background-color: $backgroudColor;
+      }
+    }
+    #see-all {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        width: 80%;
+      }
+      a {
+        border: 1px solid $brandColor;
+      }
+    }
+    #cards {
+      display: flex;
+      justify-content: space-around;
+      .card {
+        width: 30%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #19191F;
+        .icons {
+          display: flex;
+          justify-content: space-between;
+          .circle {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            font-size: 25px;
+            color: $brandColor;
+            background-color: $backgroudColor;
+          }
+          a {
+            color: $brandColor;
+          }
+        }
+        h3 {
+          margin: 20px 0;
+        }
+      }
+      .card:nth-child(2) {
+        margin: 0 5%;
+      }
+    }
   }
 }
