@@ -35,7 +35,8 @@
           margin-left: 25px;
         }
         li:last-child {
-          @include brandButton;
+          padding: 10px 20px;
+          border-radius: 3px;
           background-color: $brandColor;
         }
       }
@@ -58,12 +59,10 @@
       }
       div {
         a:first-child {
-          @include brandButton;
           background-color: $brandColor;
           margin-right: 20px;
         }
         a:last-child {
-          @include brandButton;
           border: 1px solid $brandColor;
         }
       }
