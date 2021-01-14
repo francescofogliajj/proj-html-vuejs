@@ -1,0 +1,32 @@
+#results-in-numbers {
+  width: 100%;
+  height: 500px;
+  padding: 100px 0;
+  color: white;
+  background-image: url("../img/bg-10.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  small {
+    color: $brandColor;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin: 20px 0;
+    span {
+      background-color: $brandColor;
+      padding: 5px;
+      border-radius: 3px;
+    }
+  }
+  #results {
+    display: flex;
+    justify-content: center;
+    .result {
+      margin: 50px;
+      span {
+        color: $brandColor;
+      }
+    }
+  }
+}

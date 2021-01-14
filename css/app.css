@@ -311,6 +311,39 @@ header .top .right li {
   background-color: #058283;
 }
 
+#results-in-numbers {
+  width: 100%;
+  height: 500px;
+  padding: 100px 0;
+  color: white;
+  background-image: url("../img/bg-10.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#results-in-numbers small {
+  color: #058283;
+  text-transform: uppercase;
+}
+#results-in-numbers h2 {
+  margin: 20px 0;
+}
+#results-in-numbers h2 span {
+  background-color: #058283;
+  padding: 5px;
+  border-radius: 3px;
+}
+#results-in-numbers #results {
+  display: flex;
+  justify-content: center;
+}
+#results-in-numbers #results .result {
+  margin: 50px;
+}
+#results-in-numbers #results .result span {
+  color: #058283;
+}
+
 footer {
   color: white;
 }
