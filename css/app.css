@@ -264,6 +264,10 @@ header .top .right li {
   padding: 100px 0 200px 0;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #logistical-procedure small {
   color: #058283;
@@ -281,12 +285,14 @@ header .top .right li {
 #logistical-procedure p {
   margin-bottom: 60px;
 }
-#logistical-procedure #rule {
+#logistical-procedure hr {
+  width: 100%;
   height: 3px;
+  border: 1px solid rgba(5, 130, 131, 0.3);
   background-color: rgba(5, 130, 131, 0.3);
 }
 #logistical-procedure .numbers {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   position: absolute;
