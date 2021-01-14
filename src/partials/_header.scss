@@ -1,8 +1,8 @@
 header {
   width: 100%;
   height: 50px;
-  color: white;
   background-color: #21333E;
+  font-size: 13px;
   .top {
     display: flex;
     .left, .right {
@@ -18,7 +18,7 @@ header {
     .right {
       text-align: right;
       li {
-        margin-left: 15px;
+        margin-left: 23px;
       }
     }
   }
