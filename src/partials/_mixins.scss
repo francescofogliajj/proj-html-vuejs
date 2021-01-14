@@ -1,1 +1,10 @@
+@mixin btn {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid $brandColor;
+  text-transform: uppercase;
+}
 
+@mixin sectionPadding {
+  padding: 100px 0;
+}

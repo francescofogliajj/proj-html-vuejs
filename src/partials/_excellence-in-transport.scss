@@ -1,13 +1,12 @@
 #excellence-in-transport {
   .container {
-    padding: 100px 0;
+    @include sectionPadding;
     display: flex;
     .left {
       width: 70%;
       padding-right: 80px;
       p {
         margin-bottom: 10px;
-        color: $textColor;
       }
       h5 {
         text-transform: uppercase;
@@ -43,6 +42,7 @@
       h3 {
         margin-bottom: 20px;
         color: $titleColor;
+        font-size: 20px;
       }
       ul {
         margin-bottom: 20px;
@@ -61,6 +61,7 @@
             vertical-align: super;
             h4 {
               color: $titleColor;
+              font-size: 20px;
             }
           }
           p {

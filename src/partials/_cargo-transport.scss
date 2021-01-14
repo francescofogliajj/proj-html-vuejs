@@ -35,8 +35,7 @@
           font-size: 15px;
         }
         li:last-child {
-          padding: 10px 20px;
-          border-radius: 3px;
+          @include btn;
           background-color: $brandColor;
         }
       }
@@ -46,6 +45,7 @@
         margin-top: 135px;
         margin-bottom: 10px;
         color: $brandColor;
+        letter-spacing: 1px;
       }
       h1 {
         margin-bottom: 20px;
@@ -57,11 +57,17 @@
         margin-bottom: 50px;
         text-transform: none;
         color: #BCBDBD;
+        letter-spacing: 1px;
+        font-weight: 400;
       }
       div {
         a:first-child {
+          @include btn;
           background-color: $brandColor;
           margin-right: 20px;
+        }
+        a:last-child {
+          @include btn;
         }
       }
     }
