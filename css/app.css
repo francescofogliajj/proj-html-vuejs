@@ -30,7 +30,7 @@ h5 {
 }
 
 p {
-  color: #69696D;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -141,6 +141,9 @@ header .top .right li {
   text-transform: uppercase;
 }
 
+#excellence-in-transport {
+  color: #69696D;
+}
 #excellence-in-transport .container {
   padding: 150px 0;
   display: flex;
@@ -223,10 +226,11 @@ header .top .right li {
 }
 
 #main-services {
+  color: #E6ECE8;
   background-color: #111117;
 }
 #main-services .container {
-  padding: 100px 0;
+  padding: 150px 0;
   color: white;
 }
 #main-services .container h2 {
@@ -240,7 +244,7 @@ header .top .right li {
   background-color: rgba(5, 130, 131, 0.2);
 }
 #main-services .container #see-all {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,8 +263,7 @@ header .top .right li {
   justify-content: space-around;
 }
 #main-services .container #cards .card {
-  width: 30%;
-  padding: 20px;
+  padding: 35px;
   border-radius: 10px;
   background-color: #19191F;
 }
@@ -285,7 +288,7 @@ header .top .right li {
   margin: 20px 0;
 }
 #main-services .container #cards .card:nth-child(2) {
-  margin: 0 5%;
+  margin: 0 20px;
 }
 
 #logistical-procedure {
@@ -296,6 +299,7 @@ header .top .right li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #69696D;
 }
 #logistical-procedure h2 {
   margin: 20px 0;
@@ -343,8 +347,8 @@ header .top .right li {
 #results-in-numbers {
   width: 100%;
   height: 500px;
-  padding: 100px 0;
-  color: white;
+  padding: 150px 0;
+  color: #E6ECE8;
   background-image: url("../img/bg-10.jpg");
   background-size: cover;
   background-position: center;
@@ -372,8 +376,8 @@ header .top .right li {
 }
 
 #trusted-feedback {
-  padding: 100px 0;
-  color: white;
+  padding: 150px 0;
+  color: #E6ECE8;
   background-color: #111117;
   text-align: center;
 }
@@ -417,8 +421,11 @@ header .top .right li {
   margin: 0 5%;
 }
 
+#get-in-touch {
+  color: #69696D;
+}
 #get-in-touch .container {
-  padding: 100px 0;
+  padding: 150px 0;
   display: flex;
 }
 #get-in-touch .container .left {
@@ -508,7 +515,7 @@ header .top .right li {
 }
 
 footer {
-  color: white;
+  color: #E6ECE8;
 }
 footer .top {
   padding: 100px 0;

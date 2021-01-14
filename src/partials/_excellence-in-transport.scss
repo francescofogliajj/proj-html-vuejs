@@ -1,6 +1,7 @@
 #excellence-in-transport {
+  color: $midGray;
   .container {
-    @include sectionPadding;
+    padding: $sectionPadding;
     display: flex;
     .left {
       width: 70%;
@@ -25,7 +26,7 @@
         margin-left: 15px;
         li {
           margin: 5px 0;
-          color: $textColor;
+          color: $midGray;
           font-weight: 300;
         }
       }
@@ -58,7 +59,7 @@
             }
           }
           p {
-            color: $textColor;
+            color: $midGray;
           }
         }
         li:nth-child(2) {
