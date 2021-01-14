@@ -11,7 +11,6 @@
       margin-bottom: 40px;
       display: flex;
       justify-content: space-between;
-      align-items: center;
       p {
         width: 80%;
       }
@@ -21,7 +20,6 @@
     }
     #cards {
       display: flex;
-      justify-content: space-around;
       .card {
         padding: 35px;
         border-radius: 10px;

@@ -3,7 +3,7 @@
   height: 500px;
   padding: $sectionPadding;
   color: $grayNurse;
-  background-image: url("../img/bg-10.jpg");
+  background-image: url($sectionImage);
   background-size: cover;
   background-position: center;
   text-align: center;
