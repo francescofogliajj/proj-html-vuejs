@@ -144,7 +144,7 @@ header .top .right li {
 }
 
 #excellence-in-transport .container {
-  padding: 100px 0;
+  padding: 150px 0;
   display: flex;
 }
 #excellence-in-transport .container .left {
@@ -152,7 +152,7 @@ header .top .right li {
   padding-right: 80px;
 }
 #excellence-in-transport .container .left p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #excellence-in-transport .container .left h5 {
   text-transform: uppercase;
@@ -180,7 +180,9 @@ header .top .right li {
   margin-left: 15px;
 }
 #excellence-in-transport .container .left ul li {
+  margin: 5px 0;
   color: #69696D;
+  font-weight: 300;
 }
 #excellence-in-transport .container .right {
   width: 30%;
@@ -194,11 +196,11 @@ header .top .right li {
   margin-bottom: 20px;
 }
 #excellence-in-transport .container .right ul li {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 #excellence-in-transport .container .right ul li img {
   width: 80px;
-  padding: 3px;
+  padding: 5px;
   border-radius: 2px;
   display: inline-block;
   background-color: rgba(5, 130, 131, 0.2);
@@ -215,8 +217,8 @@ header .top .right li {
   color: #69696D;
 }
 #excellence-in-transport .container .right ul li:nth-child(2) {
-  border-top: 1px solid #69696D;
-  border-bottom: 1px solid #69696D;
+  border-top: 1px solid #BCBDBD;
+  border-bottom: 1px solid #BCBDBD;
 }
 #excellence-in-transport .container .right img {
   width: 120px;
