@@ -344,6 +344,54 @@ header .top .right li {
   color: #058283;
 }
 
+#trusted-feedback {
+  padding: 100px 0;
+  color: white;
+  background-color: #111117;
+  text-align: center;
+}
+#trusted-feedback .container small {
+  color: #058283;
+  text-transform: uppercase;
+}
+#trusted-feedback .container h2 {
+  margin: 20px 0;
+}
+#trusted-feedback .container h2 span {
+  background-color: #058283;
+  padding: 5px;
+  border-radius: 3px;
+}
+#trusted-feedback .container p {
+  margin: 20px 0;
+}
+#trusted-feedback .container .cards {
+  display: flex;
+}
+#trusted-feedback .container .cards .card {
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #19191F;
+  text-align: left;
+  position: relative;
+}
+#trusted-feedback .container .cards .card img {
+  height: 40px;
+  background-color: #19191F;
+}
+#trusted-feedback .container .cards .card i {
+  position: absolute;
+  bottom: 35px;
+  right: 15px;
+}
+#trusted-feedback .container .cards .card #logo-3 {
+  height: 20px;
+}
+#trusted-feedback .container .cards .card:nth-child(2) {
+  margin: 0 5%;
+}
+
 footer {
   color: white;
 }
