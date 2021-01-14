@@ -12,12 +12,7 @@
     text-transform: uppercase;
   }
   h2 {
-    margin: 20px 0;
-    span {
-      background-color: $brandColor;
-      padding: 5px;
-      border-radius: 3px;
-    }
+    @include h2;
   }
   #results {
     display: flex;

@@ -8,12 +8,7 @@
       text-transform: uppercase;
     }
     h2 {
-      margin: 20px 0;
-      span {
-        padding: 5px;
-        border-radius: 2px;
-        background-color: $backgroudColor;
-      }
+      @include h2;
     }
     #see-all {
       margin-bottom: 20px;

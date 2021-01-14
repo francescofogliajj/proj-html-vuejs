@@ -11,12 +11,10 @@
     text-transform: uppercase;
   }
   h2 {
-    margin: 20px 0;
+    @include h2;
+    color: $titleColor;
     span {
       color: $brandColor;
-      background-color: $backgroudColor;
-      padding: 5px;
-      border-radius: 3px;
     }
   }
   p {

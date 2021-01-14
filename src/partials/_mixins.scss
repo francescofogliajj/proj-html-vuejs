@@ -8,3 +8,14 @@
 @mixin sectionPadding {
   padding: 150px 0;
 }
+
+@mixin h2 {
+  margin: 20px 0;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  span {
+    padding: 7px;
+    border-radius: 3px;
+    background-color: $backgroudColor;
+  }
+}

@@ -13,15 +13,10 @@
         color: $brandColor;
       }
       h2 {
-        margin: 20px 0;
+        @include h2;
         color: $titleColor;
-        font-size: 35px;
-        font-family: 'Montserrat', sans-serif;
         span {
-          padding: 7px;
-          border-radius: 3px;
           color: $brandColor;
-          background-color: $backgroudColor;
         }
       }
       p:nth-child(5) {

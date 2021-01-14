@@ -160,15 +160,17 @@ header .top .right li {
 }
 #excellence-in-transport .container .left h2 {
   margin: 20px 0;
-  color: #21333E;
   font-size: 35px;
   font-family: "Montserrat", sans-serif;
+  color: #21333E;
 }
 #excellence-in-transport .container .left h2 span {
   padding: 7px;
   border-radius: 3px;
-  color: #058283;
   background-color: rgba(5, 130, 131, 0.2);
+}
+#excellence-in-transport .container .left h2 span {
+  color: #058283;
 }
 #excellence-in-transport .container .left p:nth-child(5) {
   border-left: 4px solid rgba(5, 130, 131, 0.2);
@@ -239,10 +241,12 @@ header .top .right li {
 }
 #main-services .container h2 {
   margin: 20px 0;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
 }
 #main-services .container h2 span {
-  padding: 5px;
-  border-radius: 2px;
+  padding: 7px;
+  border-radius: 3px;
   background-color: rgba(5, 130, 131, 0.2);
 }
 #main-services .container #see-all {
@@ -306,12 +310,17 @@ header .top .right li {
 }
 #logistical-procedure h2 {
   margin: 20px 0;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  color: #21333E;
+}
+#logistical-procedure h2 span {
+  padding: 7px;
+  border-radius: 3px;
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #logistical-procedure h2 span {
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.2);
-  padding: 5px;
-  border-radius: 3px;
 }
 #logistical-procedure p {
   margin-bottom: 60px;
@@ -358,11 +367,13 @@ header .top .right li {
 }
 #results-in-numbers h2 {
   margin: 20px 0;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
 }
 #results-in-numbers h2 span {
-  background-color: #058283;
-  padding: 5px;
+  padding: 7px;
   border-radius: 3px;
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #results-in-numbers #results {
   display: flex;
@@ -387,11 +398,13 @@ header .top .right li {
 }
 #trusted-feedback .container h2 {
   margin: 20px 0;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
 }
 #trusted-feedback .container h2 span {
-  background-color: #058283;
-  padding: 5px;
+  padding: 7px;
   border-radius: 3px;
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #trusted-feedback .container p {
   margin: 20px 0;
@@ -438,12 +451,17 @@ header .top .right li {
 }
 #get-in-touch .container .left h2 {
   margin: 20px 0;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  color: #21333E;
+}
+#get-in-touch .container .left h2 span {
+  padding: 7px;
+  border-radius: 3px;
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #get-in-touch .container .left h2 span {
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.2);
-  padding: 5px;
-  border-radius: 3px;
 }
 #get-in-touch .container .left p {
   margin: 20px 0;
