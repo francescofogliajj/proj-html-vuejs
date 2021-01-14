@@ -371,7 +371,7 @@ header .top .right li {
 #trusted-feedback .container .cards .card {
   width: 30%;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #19191F;
   text-align: left;
   position: relative;
@@ -390,6 +390,89 @@ header .top .right li {
 }
 #trusted-feedback .container .cards .card:nth-child(2) {
   margin: 0 5%;
+}
+
+#get-in-touch .container {
+  padding: 100px 0;
+  display: flex;
+}
+#get-in-touch .container .left {
+  width: 70%;
+  height: 100%;
+  padding-right: 40px;
+}
+#get-in-touch .container .left small {
+  color: #058283;
+  text-transform: uppercase;
+}
+#get-in-touch .container .left h2 {
+  margin: 20px 0;
+}
+#get-in-touch .container .left h2 span {
+  color: #058283;
+  background-color: rgba(5, 130, 131, 0.3);
+  padding: 5px;
+  border-radius: 3px;
+}
+#get-in-touch .container .left p {
+  margin: 20px 0;
+}
+#get-in-touch .container .left .input-fields .input {
+  width: 45%;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: grey;
+  background-color: lightgrey;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+#get-in-touch .container .left .input-fields textarea {
+  width: calc(90% + 10px);
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: lightgrey;
+  resize: none;
+}
+#get-in-touch .container .left .input-fields #submit {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #058283;
+}
+#get-in-touch .container .right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#get-in-touch .container .right h3 {
+  margin: 20px 0;
+}
+#get-in-touch .container .right p {
+  margin: 10px 0;
+}
+#get-in-touch .container .right a {
+  margin: 10px 0;
+  color: #058283;
+}
+#get-in-touch .container .right a i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(5, 130, 131, 0.3);
+}
+#get-in-touch .container .right a:last-child {
+  border: 1px solid #058283;
 }
 
 footer {

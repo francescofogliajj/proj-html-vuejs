@@ -1,0 +1,86 @@
+#get-in-touch {
+  .container {
+    padding: 100px 0;
+    display: flex;
+    .left {
+      width: 70%;
+      height: 100%;
+      padding-right: 40px;
+      small {
+        color: $brandColor;
+        text-transform: uppercase;
+      }
+      h2 {
+        margin: 20px 0;
+        span {
+          color: $brandColor;
+          background-color: $backgroudColor;
+          padding: 5px;
+          border-radius: 3px;
+        }
+      }
+      p {
+        margin: 20px 0;
+      }
+      .input-fields {
+        .input {
+          width: 45%;
+          height: 40px;
+          padding-left: 10px;
+          border: none;
+          outline: none;
+          border-radius: 3px;
+          color: grey;
+          background-color: lightgrey;
+          margin-right: 5px;
+          margin-bottom: 10px;
+        }
+        textarea {
+          width: calc(90% + 10px);
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 3px;
+          background-color: lightgrey;
+          resize: none;
+        }
+        #submit {
+          display: block;
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          color: white;
+          background-color: $brandColor;
+        }
+      }
+    }
+    .right {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h3 {
+        margin: 20px 0;
+      }
+      p {
+        margin: 10px 0;
+      }
+      a {
+        margin: 10px 0;
+        color: $brandColor;
+        i {
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          background-color: $backgroudColor;
+        }
+      }
+      a:last-child {
+        border: 1px solid $brandColor;
+      }
+    }
+  }
+}
