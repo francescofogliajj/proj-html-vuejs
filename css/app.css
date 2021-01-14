@@ -100,7 +100,7 @@ header .top .right li {
   border-radius: 3px;
   background-color: #058283;
 }
-#cargo-transport .overlay .jumbotron p:first-child {
+#cargo-transport .overlay .jumbotron h5 {
   margin-top: 140px;
   margin-bottom: 10px;
   color: #058283;
@@ -135,12 +135,12 @@ header .top .right li {
   margin-bottom: 10px;
   color: #69696D;
 }
-#excellence-in-transport .container .left p:first-child {
+#excellence-in-transport .container .left h5 {
   text-transform: uppercase;
   color: #058283;
 }
 #excellence-in-transport .container .left h2 {
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 #excellence-in-transport .container .left h2 span {
   padding: 5px;
@@ -202,7 +202,7 @@ header .top .right li {
   padding: 100px 0;
   color: white;
 }
-#main-services .container small {
+#main-services .container h5 {
   color: #058283;
   text-transform: uppercase;
 }
@@ -269,7 +269,7 @@ header .top .right li {
   justify-content: center;
   align-items: center;
 }
-#logistical-procedure small {
+#logistical-procedure h5 {
   color: #058283;
   text-transform: uppercase;
 }
@@ -321,7 +321,7 @@ header .top .right li {
   background-position: center;
   text-align: center;
 }
-#results-in-numbers small {
+#results-in-numbers h5 {
   color: #058283;
   text-transform: uppercase;
 }
@@ -350,7 +350,7 @@ header .top .right li {
   background-color: #111117;
   text-align: center;
 }
-#trusted-feedback .container small {
+#trusted-feedback .container h5 {
   color: #058283;
   text-transform: uppercase;
 }
@@ -401,7 +401,7 @@ header .top .right li {
   height: 100%;
   padding-right: 40px;
 }
-#get-in-touch .container .left small {
+#get-in-touch .container .left h5 {
   color: #058283;
   text-transform: uppercase;
 }
