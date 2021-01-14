@@ -83,7 +83,7 @@ header .top .right li {
   padding: 10px 0 10px 20px;
   border-radius: 20px 0 0 20px;
   color: #00A5A5;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #cargo-transport .overlay nav .nexgen span {
   letter-spacing: 5px;
@@ -141,15 +141,18 @@ header .top .right li {
 }
 #excellence-in-transport .container .left h2 {
   margin: 20px 0;
+  color: #21333E;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
 }
 #excellence-in-transport .container .left h2 span {
-  padding: 5px;
-  border-radius: 2px;
+  padding: 7px;
+  border-radius: 3px;
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #excellence-in-transport .container .left p:nth-child(5) {
-  border-left: 4px solid rgba(5, 130, 131, 0.3);
+  border-left: 4px solid rgba(5, 130, 131, 0.2);
   padding: 10px;
   font-style: italic;
 }
@@ -177,7 +180,7 @@ header .top .right li {
   padding: 3px;
   border-radius: 2px;
   display: inline-block;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #excellence-in-transport .container .right ul li div {
   display: inline-block;
@@ -212,7 +215,7 @@ header .top .right li {
 #main-services .container h2 span {
   padding: 5px;
   border-radius: 2px;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #main-services .container #see-all {
   margin-bottom: 20px;
@@ -248,7 +251,7 @@ header .top .right li {
   border-radius: 50%;
   font-size: 25px;
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #main-services .container #cards .card .icons a {
   color: #058283;
@@ -278,7 +281,7 @@ header .top .right li {
 }
 #logistical-procedure h2 span {
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
   padding: 5px;
   border-radius: 3px;
 }
@@ -288,8 +291,8 @@ header .top .right li {
 #logistical-procedure hr {
   width: 100%;
   height: 3px;
-  border: 1px solid rgba(5, 130, 131, 0.3);
-  background-color: rgba(5, 130, 131, 0.3);
+  border: 1px solid rgba(5, 130, 131, 0.2);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #logistical-procedure .numbers {
   width: 80%;
@@ -410,7 +413,7 @@ header .top .right li {
 }
 #get-in-touch .container .left h2 span {
   color: #058283;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
   padding: 5px;
   border-radius: 3px;
 }
@@ -469,7 +472,7 @@ header .top .right li {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 #get-in-touch .container .right a:last-child {
   border: 1px solid #058283;
@@ -500,7 +503,7 @@ footer .top .container .col .nexgen span:first-child {
   padding: 10px 0 10px 20px;
   border-radius: 20px 0 0 20px;
   color: #00A5A5;
-  background-color: rgba(5, 130, 131, 0.3);
+  background-color: rgba(5, 130, 131, 0.2);
 }
 footer .top .container .col .nexgen span {
   font-weight: bold;
