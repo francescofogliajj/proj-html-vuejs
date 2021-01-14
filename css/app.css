@@ -24,13 +24,6 @@ a {
   color: white;
 }
 
-.btn {
-  padding: 10px 20px;
-  border-radius: 3px;
-  border: 1px solid #058283;
-  text-transform: uppercase;
-}
-
 h5 {
   text-transform: uppercase;
   color: #058283;
@@ -256,7 +249,10 @@ header .top .right li {
   width: 80%;
 }
 #main-services .container #see-all a {
+  padding: 10px 20px;
+  border-radius: 3px;
   border: 1px solid #058283;
+  text-transform: uppercase;
 }
 #main-services .container #cards {
   display: flex;
@@ -471,10 +467,13 @@ header .top .right li {
 #get-in-touch .container .left .input-fields #submit {
   display: block;
   margin-top: 20px;
-  border: none;
   outline: none;
   color: white;
   background-color: #058283;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #058283;
+  text-transform: uppercase;
 }
 #get-in-touch .container .right {
   width: 30%;
@@ -502,7 +501,10 @@ header .top .right li {
   background-color: rgba(5, 130, 131, 0.2);
 }
 #get-in-touch .container .right a:last-child {
+  padding: 10px 20px;
+  border-radius: 3px;
   border: 1px solid #058283;
+  text-transform: uppercase;
 }
 
 footer {
