@@ -7,10 +7,6 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  h5 {
-    color: $brandColor;
-    text-transform: uppercase;
-  }
   h2 {
     @include h2;
   }

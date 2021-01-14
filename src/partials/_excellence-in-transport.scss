@@ -8,10 +8,6 @@
       p {
         margin-bottom: 20px;
       }
-      h5 {
-        text-transform: uppercase;
-        color: $brandColor;
-      }
       h2 {
         @include h2;
         color: $titleColor;

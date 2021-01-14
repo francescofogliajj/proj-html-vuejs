@@ -31,6 +31,11 @@ a {
   text-transform: uppercase;
 }
 
+h5 {
+  text-transform: uppercase;
+  color: #058283;
+}
+
 p {
   color: #69696D;
   font-weight: 300;
@@ -154,10 +159,6 @@ header .top .right li {
 #excellence-in-transport .container .left p {
   margin-bottom: 20px;
 }
-#excellence-in-transport .container .left h5 {
-  text-transform: uppercase;
-  color: #058283;
-}
 #excellence-in-transport .container .left h2 {
   margin: 20px 0;
   font-size: 35px;
@@ -235,10 +236,6 @@ header .top .right li {
   padding: 100px 0;
   color: white;
 }
-#main-services .container h5 {
-  color: #058283;
-  text-transform: uppercase;
-}
 #main-services .container h2 {
   margin: 20px 0;
   font-size: 35px;
@@ -304,10 +301,6 @@ header .top .right li {
   justify-content: center;
   align-items: center;
 }
-#logistical-procedure h5 {
-  color: #058283;
-  text-transform: uppercase;
-}
 #logistical-procedure h2 {
   margin: 20px 0;
   font-size: 35px;
@@ -361,10 +354,6 @@ header .top .right li {
   background-position: center;
   text-align: center;
 }
-#results-in-numbers h5 {
-  color: #058283;
-  text-transform: uppercase;
-}
 #results-in-numbers h2 {
   margin: 20px 0;
   font-size: 35px;
@@ -391,10 +380,6 @@ header .top .right li {
   color: white;
   background-color: #111117;
   text-align: center;
-}
-#trusted-feedback .container h5 {
-  color: #058283;
-  text-transform: uppercase;
 }
 #trusted-feedback .container h2 {
   margin: 20px 0;
@@ -444,10 +429,6 @@ header .top .right li {
   width: 70%;
   height: 100%;
   padding-right: 40px;
-}
-#get-in-touch .container .left h5 {
-  color: #058283;
-  text-transform: uppercase;
 }
 #get-in-touch .container .left h2 {
   margin: 20px 0;

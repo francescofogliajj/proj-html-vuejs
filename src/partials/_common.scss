@@ -31,6 +31,11 @@ a {
   text-transform: uppercase;
 }
 
+h5 {
+  text-transform: uppercase;
+  color: $brandColor;
+}
+
 p {
   color: $textColor;
   font-weight: 300;

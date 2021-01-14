@@ -3,10 +3,6 @@
   .container {
     padding: 100px 0;
     color: white;
-    h5 {
-      color: $brandColor;
-      text-transform: uppercase;
-    }
     h2 {
       @include h2;
     }

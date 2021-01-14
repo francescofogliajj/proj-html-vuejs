@@ -4,10 +4,6 @@
   background-color: #111117;
   text-align: center;
   .container {
-    h5 {
-      color: $brandColor;
-      text-transform: uppercase;
-    }
     h2 {
       @include h2;
     }

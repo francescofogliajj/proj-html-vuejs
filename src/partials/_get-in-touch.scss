@@ -6,10 +6,6 @@
       width: 70%;
       height: 100%;
       padding-right: 40px;
-      h5 {
-        color: $brandColor;
-        text-transform: uppercase;
-      }
       h2 {
         @include h2;
         color: $titleColor;
