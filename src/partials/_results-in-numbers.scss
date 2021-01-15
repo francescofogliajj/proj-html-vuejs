@@ -1,27 +1,37 @@
 #results-in-numbers {
   width: 100%;
   height: 500px;
-  padding: $sectionPadding;
   background-image: url($sectionImage);
   background-size: cover;
   background-position: center;
   text-align: center;
-  h2 {
-    @include h2;
-  }
-  #results {
-    display: flex;
-    justify-content: center;
-    .result {
-      margin: 50px;
-      span {
-        color: $brandColor;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: 'Montserrat', sans-serif;
+  .container {
+    .top {
+      width: 100%;
+      height: 50%;
+      padding-top: 120px;
+      h2 {
+        @include h2;
       }
-      h3 {
-        color: white;
+    }
+    .bottom {
+      width: 100%;
+      height: 50%;
+      padding-top: 40px;
+      display: flex;
+      .result {
+        width: 25%;
+        h3 {
+          margin-top: 12px;
+        }
+        span {
+          color: $brandColor;
+          font-size: 32px;
+          font-family: 'Montserrat', sans-serif;
+        }
+        h3 {
+          color: white;
+        }
       }
     }
   }

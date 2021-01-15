@@ -356,35 +356,43 @@ header .top .right li {
 #results-in-numbers {
   width: 100%;
   height: 500px;
-  padding: 150px 0;
   background-image: url("../img/bg-10.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
 }
-#results-in-numbers h2 {
+#results-in-numbers .container .top {
+  width: 100%;
+  height: 50%;
+  padding-top: 120px;
+}
+#results-in-numbers .container .top h2 {
   margin: 20px 0;
   font-size: 35px;
 }
-#results-in-numbers h2 span {
+#results-in-numbers .container .top h2 span {
   padding: 7px;
   border-radius: 3px;
   background-color: rgba(5, 130, 131, 0.2);
 }
-#results-in-numbers #results {
+#results-in-numbers .container .bottom {
+  width: 100%;
+  height: 50%;
+  padding-top: 40px;
   display: flex;
-  justify-content: center;
 }
-#results-in-numbers #results .result {
-  margin: 50px;
+#results-in-numbers .container .bottom .result {
+  width: 25%;
 }
-#results-in-numbers #results .result span {
+#results-in-numbers .container .bottom .result h3 {
+  margin-top: 12px;
+}
+#results-in-numbers .container .bottom .result span {
   color: #058283;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 32px;
   font-family: "Montserrat", sans-serif;
 }
-#results-in-numbers #results .result h3 {
+#results-in-numbers .container .bottom .result h3 {
   color: white;
 }
 
