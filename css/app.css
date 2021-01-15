@@ -419,7 +419,6 @@ header .top .right li {
   margin-top: 40px;
 }
 #trusted-feedback .container .bottom .card {
-  width: 30%;
   padding: 30px;
   border-radius: 10px;
   background-color: #19191F;
@@ -452,7 +451,7 @@ header .top .right li {
   margin-bottom: 8px;
 }
 #trusted-feedback .container .bottom .card:nth-child(2) {
-  margin: 0 5%;
+  margin: 0 20px;
 }
 
 #get-in-touch {
