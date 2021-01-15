@@ -294,6 +294,7 @@ header .top .right li {
 }
 #main-services .container #cards .card h3 {
   margin: 20px 0;
+  color: white;
 }
 #main-services .container #cards .card:nth-child(2) {
   margin: 0 20px;
@@ -302,49 +303,54 @@ header .top .right li {
 #logistical-procedure {
   padding: 150px 0;
   text-align: center;
-  position: relative;
   color: #69696D;
+  background-color: #EEF4ED;
+  position: relative;
 }
-#logistical-procedure h2 {
+#logistical-procedure .top {
+  margin-bottom: 50px;
+}
+#logistical-procedure .top h2 {
   margin: 20px 0;
   font-size: 35px;
   color: #21333E;
 }
-#logistical-procedure h2 span {
+#logistical-procedure .top h2 span {
   padding: 7px;
   border-radius: 3px;
   background-color: rgba(5, 130, 131, 0.2);
 }
-#logistical-procedure h2 span {
+#logistical-procedure .top h2 span {
   color: #058283;
 }
 #logistical-procedure hr {
   position: absolute;
-  bottom: 45%;
+  bottom: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 4px;
-  border: 1px solid rgba(5, 130, 131, 0.2);
-  background-color: rgba(5, 130, 131, 0.2);
+  border: 1px solid #CCE3DE;
+  background-color: #CCE3DE;
 }
-#logistical-procedure .box {
+#logistical-procedure .bottom {
   width: 80%;
   margin: 0 auto;
-  margin-top: 50px;
   display: flex;
 }
-#logistical-procedure .box .card {
+#logistical-procedure .bottom .card {
   padding: 0 25px;
+  z-index: 2;
 }
-#logistical-procedure .box .card h3 {
+#logistical-procedure .bottom .card h3 {
   margin: 20px 0;
 }
-#logistical-procedure .box .card span {
-  padding: 5px;
+#logistical-procedure .bottom .card span {
+  padding: 9px;
   border-radius: 50%;
   color: #058283;
-  background-color: #058283;
+  background-color: #DAECED;
+  font-weight: bold;
 }
 
 #results-in-numbers {
@@ -568,6 +574,7 @@ footer .top .container .card {
 }
 footer .top .container .card h3 {
   margin-bottom: 10px;
+  color: white;
 }
 footer .top .container .card ul li {
   margin: 10px 0;
