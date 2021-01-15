@@ -5,10 +5,10 @@ footer {
     background-color: #111117;
     .container {
       display: flex;
-      justify-content: center;
       align-items: center;
       .col {
         width: 25%;
+        padding-right: 15px;
         .nexgen {
           @include nexGen;
           span {
@@ -28,7 +28,7 @@ footer {
             }
           }
           li:last-child {
-            margin-top: 30px;
+            margin-top: 40px;
             span {
               @include btn;
             }
@@ -37,10 +37,7 @@ footer {
       }
       .card {
         width: 25%;
-        margin: 15px;
-        padding: 30px;
-        border-radius: 10px;
-        background-color: #19191F;
+        @include card;
         h3 {
           margin-bottom: 20px;
           color: white;
@@ -54,6 +51,9 @@ footer {
             }
           }
         }
+      }
+      .card:nth-child(3) {
+        margin: 0 20px;
       }
     }
   }
