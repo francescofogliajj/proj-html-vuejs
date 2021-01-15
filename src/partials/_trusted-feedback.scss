@@ -4,17 +4,20 @@
   background-color: #111117;
   text-align: center;
   .container {
-    h2 {
-      @include h2;
+    .top {
+      h2 {
+        @include h2;
+      }
+      p {
+        margin: 20px 0;
+      }
     }
-    p {
-      margin: 20px 0;
-    }
-    .cards {
+    .bottom {
       display: flex;
+      margin-top: 40px;
       .card {
         width: 30%;
-        padding: 20px;
+        padding: 30px;
         border-radius: 10px;
         background-color: #19191F;
         text-align: left;
@@ -23,13 +26,26 @@
           height: 40px;
           background-color: #19191F;
         }
+        p {
+          margin-bottom: 10px;
+        }
         i {
           position: absolute;
-          bottom: 35px;
-          right: 15px;
+          bottom: 30px;
+          right: 20px;
+          color: #47474C;
+          font-size: 20px;
+        }
+        #logo-1 {
+          margin-left: -5px;
+        }
+        #logo-2 {
+          margin-left: -9px;
         }
         #logo-3 {
           height: 20px;
+          margin-top: 10px;
+          margin-bottom: 8px;
         }
       }
       .card:nth-child(2) {
