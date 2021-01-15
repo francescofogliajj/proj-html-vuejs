@@ -5,7 +5,7 @@ header {
   font-size: 13px;
   .top {
     display: flex;
-    .left, .right {
+    .header {
       width: 50%;
       height: 100%;
       ul {
@@ -15,7 +15,7 @@ header {
         }
       }
     }
-    .right {
+    .header:nth-child(2) {
       text-align: right;
       li {
         margin-left: 25px;

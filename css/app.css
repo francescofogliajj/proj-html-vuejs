@@ -57,20 +57,20 @@ header {
 header .top {
   display: flex;
 }
-header .top .left, header .top .right {
+header .top .header {
   width: 50%;
   height: 100%;
 }
-header .top .left ul, header .top .right ul {
+header .top .header ul {
   line-height: 50px;
 }
-header .top .left ul li, header .top .right ul li {
+header .top .header ul li {
   display: inline-block;
 }
-header .top .right {
+header .top .header:nth-child(2) {
   text-align: right;
 }
-header .top .right li {
+header .top .header:nth-child(2) li {
   margin-left: 25px;
 }
 
@@ -104,6 +104,7 @@ header .top .right li {
 }
 #cargo-transport .overlay nav .nexgen span {
   letter-spacing: 5px;
+  font-weight: bold;
 }
 #cargo-transport .overlay nav ul {
   width: 80%;
