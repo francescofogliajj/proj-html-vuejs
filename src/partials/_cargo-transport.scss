@@ -12,8 +12,8 @@
     padding-top: 20px;
     nav {
       display: flex;
+      justify-content: space-between;
       .nexgen {
-        width: 20%;
         display: flex;
         align-items: center;
         span:first-child {
@@ -28,8 +28,6 @@
         }
       }
       ul {
-        width: 80%;
-        text-align: right;
         li {
           display: inline-block;
           margin-left: 25px;

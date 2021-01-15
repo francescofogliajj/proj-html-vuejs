@@ -90,9 +90,9 @@ header .top .header:nth-child(2) li {
 }
 #cargo-transport .overlay nav {
   display: flex;
+  justify-content: space-between;
 }
 #cargo-transport .overlay nav .nexgen {
-  width: 20%;
   display: flex;
   align-items: center;
 }
@@ -105,10 +105,6 @@ header .top .header:nth-child(2) li {
 #cargo-transport .overlay nav .nexgen span {
   letter-spacing: 5px;
   font-weight: bold;
-}
-#cargo-transport .overlay nav ul {
-  width: 80%;
-  text-align: right;
 }
 #cargo-transport .overlay nav ul li {
   display: inline-block;
