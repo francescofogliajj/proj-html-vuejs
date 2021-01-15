@@ -6,7 +6,6 @@
     .left {
       width: 70%;
       height: 100%;
-      padding-right: 40px;
       h2 {
         @include h2;
         color: $titleColor;
@@ -15,7 +14,8 @@
         }
       }
       p {
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
       }
       .input-fields {
         .input {
@@ -26,7 +26,7 @@
           outline: none;
           border-radius: 3px;
           color: grey;
-          background-color: lightgrey;
+          background-color: #ECECEC;
           margin-right: 5px;
           margin-bottom: 10px;
         }
@@ -36,7 +36,7 @@
           border: none;
           outline: none;
           border-radius: 3px;
-          background-color: lightgrey;
+          background-color: #ECECEC;
           resize: none;
         }
         #submit {
@@ -45,6 +45,7 @@
           outline: none;
           color: white;
           background-color: $brandColor;
+          font-weight: bold;
           @include btn;
         }
       }
@@ -56,7 +57,7 @@
       flex-direction: column;
       align-items: flex-start;
       h3 {
-        margin: 20px 0;
+        margin: 10px 0;
       }
       p {
         margin: 10px 0;
@@ -71,6 +72,9 @@
           line-height: 40px;
           border-radius: 50%;
           background-color: $backgroudColor;
+        }
+        span {
+          margin-left: 5px;
         }
       }
       a:last-child {

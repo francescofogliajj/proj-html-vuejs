@@ -457,7 +457,6 @@ header .top .right li {
 #get-in-touch .container .left {
   width: 70%;
   height: 100%;
-  padding-right: 40px;
 }
 #get-in-touch .container .left h2 {
   margin: 20px 0;
@@ -473,7 +472,8 @@ header .top .right li {
   color: #058283;
 }
 #get-in-touch .container .left p {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 #get-in-touch .container .left .input-fields .input {
   width: 45%;
@@ -483,7 +483,7 @@ header .top .right li {
   outline: none;
   border-radius: 3px;
   color: grey;
-  background-color: lightgrey;
+  background-color: #ECECEC;
   margin-right: 5px;
   margin-bottom: 10px;
 }
@@ -493,7 +493,7 @@ header .top .right li {
   border: none;
   outline: none;
   border-radius: 3px;
-  background-color: lightgrey;
+  background-color: #ECECEC;
   resize: none;
 }
 #get-in-touch .container .left .input-fields #submit {
@@ -502,6 +502,7 @@ header .top .right li {
   outline: none;
   color: white;
   background-color: #058283;
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 3px;
   border: 1px solid #058283;
@@ -515,7 +516,7 @@ header .top .right li {
   align-items: flex-start;
 }
 #get-in-touch .container .right h3 {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 #get-in-touch .container .right p {
   margin: 10px 0;
@@ -531,6 +532,9 @@ header .top .right li {
   line-height: 40px;
   border-radius: 50%;
   background-color: rgba(5, 130, 131, 0.2);
+}
+#get-in-touch .container .right a span {
+  margin-left: 5px;
 }
 #get-in-touch .container .right a:last-child {
   padding: 10px 20px;
