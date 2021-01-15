@@ -95,6 +95,7 @@ header .top .header:nth-child(2) li {
 #cargo-transport .overlay nav .nexgen {
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 #cargo-transport .overlay nav .nexgen span:first-child {
   padding: 10px 0 10px 20px;
@@ -575,8 +576,10 @@ footer .top .container .col .nexgen span:first-child {
 }
 footer .top .container .col .nexgen span {
   letter-spacing: 5px;
-  font-size: 18px;
   font-weight: bold;
+}
+footer .top .container .col .nexgen span {
+  font-size: 18px;
 }
 footer .top .container .col p {
   margin-top: 20px;

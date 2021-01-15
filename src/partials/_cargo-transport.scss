@@ -14,18 +14,7 @@
       display: flex;
       justify-content: space-between;
       .nexgen {
-        display: flex;
-        align-items: center;
-        span:first-child {
-          padding: 10px 0 10px 20px;
-          border-radius: 20px 0 0 20px;
-          color: #00A5A5;
-          background-color: $backgroudColor;
-        }
-        span {
-          letter-spacing: 5px;
-          font-weight: bold;
-        }
+        @include nexGen;
       }
       ul {
         li {
