@@ -323,7 +323,7 @@ header .top .header:nth-child(2) li {
 }
 #logistical-procedure hr {
   position: absolute;
-  bottom: 46%;
+  top: 325px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -335,6 +335,7 @@ header .top .header:nth-child(2) li {
   width: 80%;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 #logistical-procedure .bottom .card {
   padding: 0 25px;
@@ -493,7 +494,7 @@ header .top .header:nth-child(2) li {
   margin-bottom: 15px;
 }
 #get-in-touch .container .left .input-fields textarea {
-  width: calc(90% + 10px);
+  width: calc(90% + 12px);
   padding: 10px;
   border: none;
   outline: none;
